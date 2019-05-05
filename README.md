@@ -5,7 +5,7 @@ Online store bot written in Python 3
 ## Install
 
 1. Clone this repository
-2. Install MySQL
+2. Install MySQL and create a DATABASE
 3. Install Python 3
 4. Install dependencies:
 
@@ -15,6 +15,9 @@ Online store bot written in Python 3
 6. Generate helper config files:
 
 ```./generate_config.py config/config.json```
+  If you use Windows and CMD :
+  
+```python ./generate_config.py config/config.json```
 
 7. Generate the tables:
 
@@ -25,6 +28,9 @@ Online store bot written in Python 3
 Run bot with:
 
 ```./cosicasbot.py config/config.json```
+If you use Windows and CMD :
+  
+```python ./cosicasbot.py config/config.json```
 
 In development you can use nodemon:
 
